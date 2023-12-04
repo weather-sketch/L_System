@@ -2,11 +2,13 @@
 
 ## Introduction
 L-systems, or Lindenmayer systems, are a type of formal grammar most famously used for modelling the growth patterns of plants, and are also applied in the generation of fractals and procedural content in computer graphics[1]. It is the idea of modelling biological systems using a type of formal grammar and parallel rewriting system. 
+
 Basically, an L-system is composed of four components[2]:
-An Alphabet, V, of symbols that can be used to make strings of characters. This alphabet in turn consists of symbols that are of two types: variables, which are symbols that can be replaced, and constants / terminals, which are symbols that cannot be replaced.
-An initial Axiom string, ω, which is the starting string we begin construction from. It defines the initial state of the system.
-A collection of Production Rules or Productions, P, that expand each symbol into some larger string of symbols. These rules allow us to recursively generate new symbol sequences.
-A Mechanism for translating the generated strings into geometric structures. 
+
+1. An Alphabet, V, of symbols that can be used to make strings of characters. This alphabet in turn consists of symbols that are of two types: variables, which are symbols that can be replaced, and constants / terminals, which are symbols that cannot be replaced.
+2. An initial Axiom string, ω, which is the starting string we begin construction from. It defines the initial state of the system.
+3. A collection of Production Rules or Productions, P, that expand each symbol into some larger string of symbols. These rules allow us to recursively generate new symbol sequences.
+4. A Mechanism for translating the generated strings into geometric structures. 
 After understanding the concept of L System and how it works, we can build our code on top of that.
 
 ## Objective
@@ -35,11 +37,11 @@ Leaf shapes and color variation can greatly enhance the visual appeal of generat
 
 
 ## Data Classes and Other Structures
-I employs several classes to organize its functionality:
-LSystemGenerator: This class defines the L-system generator, initializes its axiom, rules, angle, distance, and iterations. The generate method develops the L-system sequence over time using deterministic, stochastic, and context-sensitive rules.
-LSystemRenderer: This class is responsible for rendering the L-system sequence into a visual image using turtle graphics. It includes methods for drawing different leaf shapes and coloring.
-ParameterManager: This class manages the parameters that influence the L-system generation and the rendering process, and provides methods for changing these parameters interactively.
-LSystemController: This class serves as the controller, coordinating between the generator, renderer, and parameter manager. It also handles model loading, user inputs, and instructions display.
+    I employs several classes to organize its functionality:
+`LSystemGenerator`: This class defines the L-system generator, initializes its axiom, rules, angle, distance, and iterations. The generate method develops the L-system sequence over time using deterministic, stochastic, and context-sensitive rules.
+`LSystemRenderer`: This class is responsible for rendering the L-system sequence into a visual image using turtle graphics. It includes methods for drawing different leaf shapes and coloring.
+`ParameterManager`: This class manages the parameters that influence the L-system generation and the rendering process, and provides methods for changing these parameters interactively.
+`LSystemController`: This class serves as the controller, coordinating between the generator, renderer, and parameter manager. It also handles model loading, user inputs, and instructions display.
 The main data structures used in the code are Python strings and lists to represent and manipulate the L-system sequence, and stacks to handle the branching and returning operations in the drawing process.
 
 ## Results
