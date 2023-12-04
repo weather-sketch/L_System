@@ -33,15 +33,20 @@ The feature I implemented includes:
 
 
 6. Leaf shapes and color variation:
-Leaf shapes and color variation can greatly enhance the visual appeal of generated fractal trees. I  implement this feature by assigning different colors and leaf shapes,  and using random function combined with Turtle to varify the each leaf in the drawing process.图片: https://uploader.shimo.im/f/2Nt6sL2pTozFYRMC.png?sm_xform=image%2Fcrop%2Cx_0%2Cy_0%2Cw_1172%2Ch_108&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3MDE2OTAyMzMsImZpbGVHVUlEIjoidlZBWE1KNzJCUEZRZFEzbSIsImlhdCI6MTcwMTY4OTkzMywiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjo2ODM2MjM5MH0.xJ09Ly_l1og2eiYoIqXG09H_Wmd_VjvW9VA9J86q71k
+Leaf shapes and color variation can greatly enhance the visual appeal of generated fractal trees. I  implement this feature by assigning different colors and leaf shapes,  and using random function combined with Turtle to varify the each leaf in the drawing process.
 
 
 ## Data Classes and Other Structures
-    I employs several classes to organize its functionality:
+I employs several classes to organize its functionality:
+
 `LSystemGenerator`: This class defines the L-system generator, initializes its axiom, rules, angle, distance, and iterations. The generate method develops the L-system sequence over time using deterministic, stochastic, and context-sensitive rules.
+
 `LSystemRenderer`: This class is responsible for rendering the L-system sequence into a visual image using turtle graphics. It includes methods for drawing different leaf shapes and coloring.
+
 `ParameterManager`: This class manages the parameters that influence the L-system generation and the rendering process, and provides methods for changing these parameters interactively.
+
 `LSystemController`: This class serves as the controller, coordinating between the generator, renderer, and parameter manager. It also handles model loading, user inputs, and instructions display.
+
 The main data structures used in the code are Python strings and lists to represent and manipulate the L-system sequence, and stacks to handle the branching and returning operations in the drawing process.
 
 ## Results
@@ -57,8 +62,13 @@ This project showcases the power and versatility of L-systems as a tool for gene
 
 ## Reference
 [1] Przemysław Prusinkiewicz and Aristid Lindenmayer. (1990) The Algorithmic Beauty of Plants. Springer-Verlag
+
 [2] Mundy Reimer. (2020). Generating a Garden with Python. Mundy Reimer. https://mundyreimer.github.io/blog/lindenmayer-grammars-1
+
 [3] Paul Bourke.(1991). L-System User Notes. https://paulbourke.net/fractals/lsys/
+
 [4] Houdini. (2020). L-System geometry node. Houdini. https://www.sidefx.com/docs/houdini/nodes/sop/lsystem.html#use-modeled-geometry-in-an-l-system
+
 [5] Python Software Foundation.(2023). turtle — Turtle graphics. Python Documentation. https://docs.python.org/3.9/library/turtle.html
+
 
