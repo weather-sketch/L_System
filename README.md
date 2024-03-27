@@ -51,8 +51,15 @@ The main data structures used in the code are Python strings and lists to repres
 
 ## Results
 The application successfully generates fractal trees as per the defined L-system rules and models. The stochastic and context-sensitive rules introduce variations in the tree structure, enhancing the natural appearance of the trees. The adjustable parameters allow users to interactively explore the parameter space of the L-system, providing a deeper understanding of the L System generation process.
-![image](https://github.com/weather-sketch/L_System/assets/138662766/df68e0ef-8055-4ec8-880f-24240788270a)
 
+![image](https://github.com/weather-sketch/L_System/assets/138662766/df68e0ef-8055-4ec8-880f-24240788270a)
+![image](https://github.com/weather-sketch/L_System/assets/138662766/8a5b91f8-3e5b-40be-8d17-3f0e5e0fe17c)
+![image](https://github.com/weather-sketch/L_System/assets/138662766/57c0fcaa-efbb-462e-baa2-088680a60d9d)
+![image](https://github.com/weather-sketch/L_System/assets/138662766/7ca36b49-3be3-4bf6-b6d4-2f2ce2a83706)
+![image](https://github.com/weather-sketch/L_System/assets/138662766/b7d0c48c-34c6-47f0-98b0-876ba70ebb3c)
+![image](https://github.com/weather-sketch/L_System/assets/138662766/8e565c84-7cb2-4251-b2a8-26b4d358c616)
+![image](https://github.com/weather-sketch/L_System/assets/138662766/337fedf3-64fd-44ca-8a08-71242a4455fe)
+![image](https://github.com/weather-sketch/L_System/assets/138662766/20f89602-40d4-4c7e-b121-59265b95346c)
 
 ## Limitation
 For my future improvements, this project has a few shortcomings:
